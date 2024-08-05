@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "URL Prefixer",
+    "version": "1.0",
+    "description": "Copy the current URL, prefix it with r.jina.ai/, and open a new tab with it.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+      "default_title": "Prefix URL"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
