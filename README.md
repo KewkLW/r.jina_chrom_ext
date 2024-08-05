@@ -30,5 +30,4 @@ URL Prefixer is a Chrome extension that copies the current URL, prefixes it with
 
 5. Click on "Load unpacked" and select the extracted `url_prefixer` directory.
 
-## Directory Structure
 
